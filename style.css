@@ -1,16 +1,7 @@
-* {
-    box-sizing: border-box;
+li {
+    list-style: none;
 }
 
-html, body {
-    min-height: 100%; 
-    background: #fff; 
-    color: #000; 
+a:link {
+    text-decoration: none!important;
 }
-
-body { 
-    font-size: 1.4rem; 
-    text-rendering: optimizeLegibility; 
-    margin: 0; 
-}
-
