@@ -7,7 +7,7 @@
 div.one-body {
     background-color: #1f2937;
     padding-top: 12px; 
-    padding-bottom: 12px; 
+    padding-bottom: 4em; 
     padding-left: 12em; 
     padding-right: 12em;  
 }
@@ -59,7 +59,7 @@ a.logo {
 a.link {
     font-family: Arial, Helvetica, sans-serif; 
     color: #e5e7eb; 
-    font-size: 12px; 
+    font-size: 14px; 
 }
 
 div.container {
@@ -67,7 +67,7 @@ div.container {
     flex-direction: row; 
     padding-top: 6em; 
     padding-bottom: 2em; 
-    gap: 3em; 
+    gap: 4em; 
 }
 
 div.title {
@@ -98,4 +98,21 @@ div.image-block {
 
 div.image {
     color: gray; 
+}
+
+button {
+    background-color: #3882f6; 
+    border: none; 
+    padding-top: 0.75em; 
+    padding-bottom: 0.75em; 
+    padding-left: 1.75em; 
+    padding-right: 1.75em; 
+    border-radius: 15px; 
+    color:#f9faf8; 
+    font-weight: 700; 
+
+}
+
+div.button {
+    padding-top: 0.5em; 
 }
