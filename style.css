@@ -132,13 +132,14 @@ div.middle-container {
     align-items: center; 
     padding-left: 13em; 
     padding-right: 13em; 
+    margin-top: 40px; 
+    margin-bottom: 40px; 
 }
 
 div.middle-title {
     color: #1f2937; 
     font-size: 24px; 
     font-weight: 800; 
-    padding: 1.5em; 
 }
 
 div.info-cards {
@@ -156,6 +157,7 @@ div.box {
 
 div.info-cards {
     gap: 5em; 
+    padding: 30px; 
 }
 
 div.card {
@@ -178,4 +180,30 @@ div.card-info {
     padding-left: 4px; 
     padding-right: 4px; 
     text-align: center; 
+}
+
+div.quote-box {
+    display: flex; 
+    flex-direction: column; 
+    width: 100%; 
+    background-color: #e5e7eb; 
+}
+
+div.quote {
+    padding-top: 80px; 
+    margin-left: 300px; 
+    margin-right: 300px; 
+    color: #1f2937; 
+    font-size: 25px; 
+}
+
+div.quote-author {
+    display: flex; 
+    justify-content: flex-end;
+    margin-left: 300px; 
+    margin-right: 300px; 
+    font-size: 20px; 
+    font-weight: 700;  
+    padding-bottom: 80px; 
+    padding-top: 10px; 
 }
