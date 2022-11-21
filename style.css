@@ -104,10 +104,6 @@ a.button:visited {
     color: #f9faf8
 }
 
-button:hover {
-    background-color: #2d66c2;
-}
-
 button {
     background-color: #3882f6; 
     border: none; 
@@ -206,4 +202,45 @@ div.quote-author {
     font-weight: 700;  
     padding-bottom: 80px; 
     padding-top: 10px; 
+}
+
+div.footer {
+    margin-top: 100px; 
+    margin-bottom: 100px; 
+    margin-left: 220px; 
+    margin-right: 220px; 
+}
+
+div.action-banner {
+    background-color: #3882f6; 
+    display: flex; 
+    width: 100%; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 150px; 
+    padding: 40px; 
+    border-radius: 15px; 
+}
+
+div.action-info {
+    color: #e5e7eb; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+div.action-title {
+    font-size: 20px; 
+    font-weight: 900;  
+}
+
+div.action-instruction {
+    font-size: 14px; 
+}
+
+button.action {
+    border: solid #e5e7eb; 
+    border-radius: 15px; 
+}
+
+a.action-button:visited {
+    color: #e5e7eb; 
 }
