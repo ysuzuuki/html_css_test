@@ -10,6 +10,7 @@ div.one-body {
     padding-bottom: 4em; 
     padding-left: 12em; 
     padding-right: 12em;  
+
 }
 
 li {
@@ -154,6 +155,7 @@ div.box {
 div.info-cards {
     gap: 5em; 
     padding: 30px; 
+    display: flex; 
 }
 
 div.card {
@@ -243,4 +245,11 @@ button.action {
 
 a.action-button:visited {
     color: #e5e7eb; 
+}
+
+div.copyright {
+    text-align: center; 
+    padding: 20px; 
+    background-color: #1f2937;
+    color: #f9faf8;
 }
